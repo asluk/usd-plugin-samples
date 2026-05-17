@@ -1,5 +1,27 @@
 # OpenUSD Plugin Samples
 
+> ## ⚠️ Deprecated — Reference Only
+>
+> This repository is **no longer actively maintained**. It is preserved as a
+> conceptual reference for authoring OpenUSD plugins and is **not guaranteed to
+> build or run against current versions of OpenUSD or its dependencies**.
+>
+> **What's still useful here:**
+> - The **dynamic payload** example (`src/usd-plugins/dynamicPayload`) — illustrates
+>   how to drive OpenUSD scene composition from an external data source.
+> - The **Hydra 2 scene index** examples (`src/hydra-plugins`) — illustrate
+>   geospatial coordinates, the metrics assembler, and integration with NVIDIA Warp.
+>
+> **What's been removed:**
+> - The **Kit extension** sample previously under `src/kit-extension` targeted
+>   an outdated version of Kit and no longer works against current releases.
+>   No replacement workflow for packaging custom OpenUSD schema plugins as a
+>   Kit extension is provided here.
+>
+> Treat the remaining samples as **illustrations of concepts**, not as a
+> supported starting point. You are welcome to fork and adapt, but expect to do
+> the porting work to your own OpenUSD / toolchain versions yourself.
+
 ## Introduction
 
 This repository contains a set of samples that illustrate authoring of different kinds of plugins for OpenUSD. In particular, this repository contains plugin samples for:
