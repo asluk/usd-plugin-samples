@@ -40,6 +40,18 @@ if not "%1"=="" (
     if "%1" == "--relwithdebinfo" (
         set CONFIG=relwithdebinfo
     )
+    if "%1" == "--usd-flavor" (
+        set USD_FLAVOR=%2
+        shift
+    )
+    if "%1" == "--usd-ver" (
+        set USD_VER=%2
+        shift
+    )
+    if "%1" == "--python-ver" (
+        set PYTHON_VER=%2
+        shift
+    )
     if "%1" == "--help" (
         set HELP=true
     )

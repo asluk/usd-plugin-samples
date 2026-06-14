@@ -43,6 +43,21 @@ do
     then
         CONFIG=relwithdebinfo
     fi
+    if [[ "$1" == "--usd-flavor" ]]
+    then
+        USD_FLAVOR=$2
+        shift
+    fi
+    if [[ "$1" == "--usd-ver" ]]
+    then
+        USD_VER=$2
+        shift
+    fi
+    if [[ "$1" == "--python-ver" ]]
+    then
+        PYTHON_VER=$2
+        shift
+    fi
     if [[ "$1" == "--help" ]]
     then
         HELP=true
