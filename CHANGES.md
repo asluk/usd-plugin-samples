@@ -1,11 +1,16 @@
 # Changelog
 
+## 5.0.0
+
+- Deprecated repository; preserved as a conceptual reference only,
+  no longer actively maintained against current OpenUSD or Kit versions
+- Removed `src/kit-extension` (targeted an outdated Kit version)
+- Removed Kit/Omniverse-specific packaging instructions from build docs
+
 ## 4.0.0
 
 - Simplified build infrastructure such that standard tooling is used
   everywhere except pulling down packman packages
-- Removed kit-extension and updated README with instructions on
-  integrating schema builds with standard kit-app-template extensions
 - Eliminated repo-tooling based generators
 
 ## 3.0.0
